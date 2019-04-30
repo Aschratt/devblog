@@ -1,7 +1,7 @@
 module.exports = {
   title: 'Carsten\'s Blog', // Required
   author: 'Carsten Rudolph', // Required
-  description: 'Software Developer & Video Games Enthusiast',
+  description: 'Professional Software Developer, Computer Graphics Researcher, former GTA Modder and Video Games Enthusiast',
   primaryColor: '#3F9FCF', // Required
   showHeaderImage: true,
   showShareButtons: true,
