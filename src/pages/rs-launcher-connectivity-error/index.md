@@ -1,15 +1,15 @@
 ---
-title: The worrying Rise of Gaming Service Platforms
+title: Fixing connectivity issues for Rockstar's Game Launcher
 date: "2019-11-04"
 ---
 
-Tomorrow marks the day, the latest and long-awaited Rockstar Games title, *[Red Dead Redemption II](https://www.rockstargames.com/reddeadredemption2/)* will be released for Windows PC's. Along with it comes the requirement to install Rockstar's *[Game Launcher](https://socialclub.rockstargames.com/rockstar-games-launcher)*, which replaces the now obsolete *Social Club* application. Being a relatively young software product, the launcher is not free from issues. After I installed it, I ran into a reproducible connectivity problem. If you are also encountering such problems, you may give this solution a try!
+Tomorrow marks the day, the latest and long-awaited Rockstar Games title, Red Dead Redemption II will be released for Windows PC's. Along with it comes the requirement to install Rockstar's Game Launcher, which replaces the now obsolete Social Club application. Being a relatively young software product, the launcher is not free from issues. After I installed it, I ran into a reproducible connectivity problem. If you are also encountering such problems, you may give this solution a try!
 
 <!-- end -->
 
 # The Problem
 
-Rockstar's Game launcher is the latest addition to the game launcher family, we were all waiting for. Unfortunately, after installing it, I wasn't able to get it running directly. I kept receiving the following error, directly after starting the application. The only options I had was to immediately close the app again.
+[Rockstar's Game launcher](https://socialclub.rockstargames.com/rockstar-games-launcher) is the latest addition to the game launcher family, [we've all been waiting for](https://aschratt.github.io/devblog/game-pass-critic/). Unfortunately, after installing it, I wasn't able to get it running directly. I kept receiving the following error, directly after starting the application. The only options I had was to immediately close the app again.
 
 > Connection to the Rockstar Games Library Service could not be established. In case you keep receiving this message, contact the customer support.
 
