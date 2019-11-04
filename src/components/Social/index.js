@@ -3,7 +3,7 @@ import React from 'react';
 import Wrapper from './Wrapper';
 import SocialLink from './SocialLink';
 
-function Social({ website, twitter, github, linkedin }) {
+function Social({ website, twitter, github, linkedin, stackexchange }) {
   return (
     <Wrapper>
       {website && (
@@ -79,6 +79,27 @@ function Social({ website, twitter, github, linkedin }) {
             <circle cx="4" cy="4" r="2" />
           </svg>
           LinkedIn
+        </SocialLink>
+      )}
+      {stackexchange && (
+        <SocialLink href={stackexchange} target="_blank" rel="noopener">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="28"
+            height="28"
+            viewBox="0 0 66 66"
+            fill="none"
+            stroke="currentColor"
+            strokeWidth="2"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          >
+            <path d="m 15.806912,3.53338 c 4.251199,0.01013 28.857308,0.08997 33.006482,0.127862 7.000559,0.06383 5.820905,8.955227 5.820905,8.955227 l -44.264483,8e-5 C 10.51166,8.15688 10.297876,4.679599 15.806912,3.53338 z"></path>
+            <rect ry="0" y="14.791447" x="10.305878" height="9.2111044" width="44.392414"></rect>
+            <rect ry="0" y="27.136799" x="10.113928" height="10.234562" width="44.392414"></rect>
+            <path d="m 10.109411,40.852056 c 0,0 -0.965753,7.717822 6.337176,8.225116 2.762185,0.191894 19.957401,0.255866 19.957401,0.255866 l -1.791061,10.618366 10.42647,-10.602378 c 1.095582,0.01216 1.509462,-0.05998 4.890734,-0.04782 5.651563,0.02027 4.761716,-8.155674 4.761716,-8.155674 l -44.130137,-0.383789 0,-6.1e-5 -0.452299,0.09038 z"></path>
+          </svg>
+          StackExchange
         </SocialLink>
       )}
     </Wrapper>
